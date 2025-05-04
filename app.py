@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # === CONFIG ===
-API_URL = "http://localhost:8000/recommend"  # change if running on a different machine
+API_URL = "https://shl-task-qz8g.onrender.com/recommend"  
 
 # === UI ===
 st.set_page_config(page_title="SHL Assessment Recommender", layout="centered")
