@@ -46,7 +46,7 @@ This project is a Retrieval-Augmented Generation (RAG)-based tool designed to he
 ##  Deployment Links
 
 - **Live App (Frontend)**: [Streamlit App](https://shl-karthikeya.streamlit.app/)
-- **API Endpoint**: [FastAPI /recommend](https://shl-task-qz8g.onrender.com/recommend)
+- **API Endpoint**: [FastAPI /recommend](https://shl-task-qz8g.onrender.com/docs)
 - **GitHub Codebase**: [GitHub Repository](https://github.com/karthikeya100804/shl_task)
 
 ---
