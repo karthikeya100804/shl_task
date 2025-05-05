@@ -36,9 +36,9 @@ This project is a Retrieval-Augmented Generation (RAG)-based tool designed to he
 - **Recall@k**: Measures how many relevant assessments appear in the top-k results.
 - **MAP@k (Mean Average Precision)**: Measures the average precision of relevant assessments, rewarding correct ranking within the top-k.
 - Recall@1:  0.1444
--Recall@5:  0.5222
--MAP@1:     1.0000
--MAP@5:     0.8500
+- Recall@5:  0.5222
+- MAP@1:     1.0000
+- MAP@5:     0.8500
 
 
 ---
@@ -47,9 +47,11 @@ This project is a Retrieval-Augmented Generation (RAG)-based tool designed to he
 
 - **Live App (Frontend)**: [Streamlit App](https://shl-karthikeya.streamlit.app/)
 - **API Endpoint**: [FastAPI /recommend](https://shl-task-qz8g.onrender.com/docs)
-- **GitHub Codebase**: [GitHub Repository](https://github.com/karthikeya100804/shl_task)
-
+- **GitHub Codebase**: [GitHub Repository](https://github.com/karthikeya100804/shl_task
 ---
+## Note Note on Load Time
+-
+- The first request to the FastAPI backend (hosted on Render) may take 2–3 minutes to load due to cold start latency on free-tier deployments. Subsequent requests are significantly faster.
 ##  Setup Instructions (For Local Use)
 ```
 git clone https://github.com/karthikeya100804/shl_task.git
