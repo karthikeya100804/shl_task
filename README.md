@@ -49,8 +49,7 @@ This project is a Retrieval-Augmented Generation (RAG)-based tool designed to he
 - **API Endpoint**: [FastAPI /recommend](https://shl-task-qz8g.onrender.com/docs)
 - **GitHub Codebase**: [GitHub Repository](https://github.com/karthikeya100804/shl_task
 ---
-## Note Note on Load Time
--
+## Note on Load Time
 - The first request to the FastAPI backend (hosted on Render) may take 2–3 minutes to load due to cold start latency on free-tier deployments. Subsequent requests are significantly faster.
 ##  Setup Instructions (For Local Use)
 ```
@@ -88,6 +87,6 @@ pip install -r requirements.txt
 - Backend is hosted via [Render](https://render.com), frontend via [Streamlit Community Cloud](https://streamlit.io/).
 - API follows query interface described in the assignment documentation (Appendix 2).
 - Evaluation is done using real queries and known ground truth results.
-
+- The first request to the FastAPI backend (hosted on Render) may take 2–3 minutes to load due to cold start latency on free-tier deployments. Subsequent requests are significantly faster.
 ---
 
