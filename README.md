@@ -1,4 +1,4 @@
-# SHL Assessment Recommendation System
+# Job Assessment Recommendation System
 
 This project is a Retrieval-Augmented Generation (RAG)-based tool designed to help recruiters and hiring managers find the most relevant SHL assessments for their specific job requirements using natural language queries.
 
